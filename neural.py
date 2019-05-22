@@ -5,7 +5,7 @@ from PIL import Image
 from operator import itemgetter
 
 
-path = "train1"
+#path = "train1"
 folder_names = [name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))]
 #print(folder_names)
 
